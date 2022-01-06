@@ -1,3 +1,3 @@
-k = 'GCFAB'
+k = 'GCAB'
 print(len(k))
 print(k[2])
