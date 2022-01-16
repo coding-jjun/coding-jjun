@@ -2,8 +2,8 @@ import sys
 input = sys.stdin.readline
 S = set([])
 n = int(input())
-for i in range(n):
-    k = input()
+def perform(k):
+    global S
     if k == 'all\n' or k == 'empty\n':
         o = k
     else:
@@ -14,7 +14,7 @@ for i in range(n):
         if m in S:
             S.remove(m)
         else:
-            continue
+            return 0
     elif o == 'check':
         if m in S:
             print(1)
@@ -29,3 +29,6 @@ for i in range(n):
         S = set([str(i) for i in range(1, 21)])
     elif o[:5] == 'empty':
         S = set([])
+for i in range(n):
+    k = input()
+    perform(k)
