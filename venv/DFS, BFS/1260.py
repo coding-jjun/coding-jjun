@@ -1,5 +1,5 @@
 from collections import deque
-import sys
+import
 input = sys.stdin.readline
 N, M, V = map(int, input().split())
 graph = [[] for N in range(N+1)]
