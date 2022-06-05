@@ -1,12 +1,8 @@
-import time
-
-
 def adjacent(x):  # x와 i 가 같으면 행이 같은거 근데 for문을 보면 x와 i가 같을 수가 없다.
     for i in range(x):  # 인덱스가 행  row[n]값이 열
         if row[x] == row[i] or abs(row[x] - row[i]) == x - i:  # 열이 같거나 대각선이 같으면 false
             return False  # 대각선이 같은경우는 두 좌표에서 행 - 행 = 열 - 열 이 같으면 두개는 같은 대각선상에 있다.
     return True
-
 
 # 한줄씩 재귀하며 dfs 실행
 
@@ -27,11 +23,6 @@ def dfs(x):
 N = int(input())
 row = [0] * N
 result = 0
-start = time.time()
 dfs(0)
-end = time.time()
 # print(row)
 print(result)
-
-
-print(end-start)
