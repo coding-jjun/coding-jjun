@@ -8,7 +8,7 @@
 
   <br/>
 
-  ![Sejun's GitHub stats](https://github-readme-stats.vercel.app/api?username=K-Junyyy&show_icons=true&theme=highcontrast) 
+  ![coding-jun's GitHub stats](https://github-readme-stats.vercel.app/api?username=coding-jjun&show_icons=true&theme=highcontrast) 
 
   <br>
 
