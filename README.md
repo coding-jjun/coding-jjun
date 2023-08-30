@@ -4,7 +4,7 @@
 
   #### 🔗 Blog Link
   
-  [![Tistory Badge](https://img.shields.io/badge/My%20Blog-555263?style=flat&logoColor=white)]("https://jun-bug.tistory.com/)
+  [![Tistory Badge](https://img.shields.io/badge/My%20Blog-555263?style=flat&logoColor=white)](https://jun-bug.tistory.com/)
   
   #### 🎖️ Baekjoon Rank
 
